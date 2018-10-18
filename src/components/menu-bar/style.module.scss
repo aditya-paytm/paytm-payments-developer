@@ -37,22 +37,40 @@
     
     a.active-link {
             color: $primary;
+            span{
+                &::before{
+                    color:$primary;
+                }
+            }
     }
 
     .left-link {
         height: 40px;
         padding-left: 40px;
         padding-right: 5px;
-        color: $dark2;
+        color: #536e92;
         font-size: 1.4rem;
         line-height:normal;
         font-weight: normal;
         & img {
             margin-right: 10px;
         }
+        & span {
+            margin-right: 10px;
+            &::before{
+                font-size: 24px;
+                color:#536e92;
+            }
+        }
         
         &:hover {
             color: $primary;
+            span{
+                &::before{
+                font-size: 24px;
+                color:$primary;
+            }
+            }
         }
         &:focus{
             color:$primary;

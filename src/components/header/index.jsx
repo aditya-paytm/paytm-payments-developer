@@ -52,9 +52,6 @@ class Header extends Component {
       <header className={`${style.header}`}>
         <div className={`max-wrap grid justify-between align-center h100 desktop`}>
           <div className={`grid-inline`}>
-          <span className={`${style.iconIcBusinessTesting}`}>
-                
-                </span>
             <a className={`${style.logoDesk} grid justify-center align-center`} href='/docs'>
               <Logodeveloper /> <span>DEVELOPERS</span>
             </a>
