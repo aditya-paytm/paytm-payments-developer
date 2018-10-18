@@ -5,6 +5,170 @@
 @import './common/grid';
 @import './common/popup';
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,800');
+
+/* ico font */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('/assets/fonts/icomoon.eot?7upgbu');
+    src:  url('/assets/fonts/icomoon.eot?7upgbu#iefix') format('embedded-opentype'),
+      url('/assets/fonts/icomoon.ttf?7upgbu') format('truetype'),
+      url('/assets/fonts/icomoon.woff?7upgbu') format('woff'),
+      url('/assets/fonts/icomoon.svg?7upgbu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-ic-business-testing:before {
+    content: "\e900";
+    color: #536e92;
+  }
+  .icon-ic-business-web-android:before {
+    content: "\e901";
+    color: #536e92;
+  }
+  .icon-ic-business-web-api-black:before {
+    content: "\e902";
+    color: #00b9f5;
+  }
+  .icon-ic-business-web-api-reference:before {
+    content: "\e903";
+    color: #536e92;
+  }
+  .icon-ic-business-web-api:before {
+    content: "\e904";
+    color: #536e92;
+  }
+  .icon-ic-business-web-faq:before {
+    content: "\e905";
+    color: #536e92;
+  }
+  .icon-ic-business-web-get-started:before {
+    content: "\e906";
+    color: #536e92;
+  }
+  .icon-ic-business-web-home:before {
+    content: "\e907";
+    color: #536e92;
+  }
+  .icon-ic-business-web-ios-black:before {
+    content: "\e908";
+  }
+  .icon-ic-business-web-ios:before {
+    content: "\e909";
+    color: #536e92;
+  }
+  .icon-ic-check-cirlce:before {
+    content: "\e90a";
+    color: #00c673;
+  }
+  .icon-ic-business-web-plugin:before {
+    content: "\e90b";
+    color: #536e92;
+  }
+  .icon-ic-business-web-refunds:before {
+    content: "\e90c";
+    color: #536e92;
+  }
+  .icon-ic-chevron-down:before {
+    content: "\e90d";
+  }
+  .icon-ic-chevron-right:before {
+    content: "\e90e";
+    color: #00b9f5;
+  }
+  .icon-ic-clear:before {
+    content: "\e90f";
+  }
+  .icon-ic-edit:before {
+    content: "\e910";
+  }
+  .icon-ic-facebook:before {
+    content: "\e911";
+    color: #536292;
+  }
+  .icon-ic-file-download:before {
+    content: "\e912";
+  }
+  .icon-ic-launch:before {
+    content: "\e913";
+    color: #00b9f5;
+  }
+  .icon-ic-lightbulb-outline:before {
+    content: "\e914";
+    color: #536e92;
+  }
+  .icon-ic-mail:before {
+    content: "\e915";
+    color: #536292;
+  }
+  .icon-ic-search:before {
+    content: "\e916";
+  }
+  .icon-ic-star:before {
+    content: "\e917";
+    color: #fff;
+  }
+  .icon-ic-twitter:before {
+    content: "\e918";
+    color: #536e92;
+  }
+  .icon-web:before {
+    content: "\e919";
+    color: #536e92;
+  }
+  .icon-home:before {
+    content: "\e91a";
+    color: #536e92;
+  }
+  .icon-head-pay-link .path1:before {
+    content: "\e91b";
+    color: rgb(0, 185, 245);
+  }
+  .icon-head-pay-link .path2:before {
+    content: "\e91c";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-head-pay-link .path3:before {
+    content: "\e91d";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-head-pay-link .path4:before {
+    content: "\e91e";
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+  .icon-code-icon:before {
+    content: "\e91f";
+    color: #536e92;
+  }
+  .icon-cart:before {
+    content: "\e920";
+    color: #536e92;
+  }
+  
+/* ico font */
+
+
+
+
+
 #app{min-width:1279px;}
 .btn {
     font-size: 1.4rem;
