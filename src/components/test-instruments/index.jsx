@@ -18,8 +18,8 @@ class TestInstrument extends Component {
                 <div className={`${style.tabPanelBox}`}>
                 <TabPanel tabId="card">
                     <div className={`${style.imgBox} grid-inline justify-center`}>
-                        <img src='/assets/visa.png'/>
-                        <img src='/assets/mastercard.png'/>
+                        <img src='/assets/visa.png' alt='visa-logo'/>
+                        <img src='/assets/mastercard.png' alt='mastercard-logo'/>
                     </div>
                     <div className={`${style.cardWalletBox}`}>
                         <table>

@@ -28,14 +28,14 @@ class Home extends Component {
                     <div className='head-left stage-detail'>
                         <h1 className='big-head-txt'>Integrate Payments with Paytm</h1>
                         <p className='small-head-txt'>
-                        Add <a href="https://business.paytm.com/payment-gateway" target="_blank">Paytm Payment Gateway</a> to your mobile app or website. Collect online payments from your customers using UPI, Debit/Credit Cards, 50+ NetBanking options and Paytm Wallet.<br/><br/> The only requirement to get started is -
+                        Add <a href="https://business.paytm.com/payment-gateway" rel="noopener" target="_blank">Paytm Payment Gateway</a> to your mobile app or website. Collect online payments from your customers using UPI, Debit/Credit Cards, 50+ NetBanking options and Paytm Wallet.<br/><br/> The only requirement to get started is -
                         </p>
                         <button className='btn btn-default small' onClick={this.handleChange}>Create account</button>
                         
                     </div>
 
                     <div className='head-right'>
-                        <img src='/assets/img-build-with-paytm.svg' alt='' />
+                        <img src='/assets/img-build-with-paytm.svg' alt='banner-img' />
                     </div>
                 </div>
                 
@@ -44,7 +44,7 @@ class Home extends Component {
                     <div className='grid justify-between'>
                         <div className='box-item grid vertical justify-between'>
                             <div className='box-bg'>
-                                <img className='' src='/assets/dev-web.svg' alt='' />
+                                <img className='' src='/assets/dev-web.svg' alt='dev-web' />
                                 <div>
                                     <h6 className='bold-heading'>Payment Gateway for Website</h6>
                                     <p className='small-head-txt'>Paytm Checkout HTML/API integration for your existing website</p>
@@ -56,7 +56,7 @@ class Home extends Component {
                         </div>
                         <div className='box-item grid vertical justify-between'>
                             <div className='box-bg'>
-                                <img className='' src='/assets/dev-app.svg' alt='' />
+                                <img className='' src='/assets/dev-app.svg' alt='dev-app' />
                                 <div>
                                     <h6 className='bold-heading'>Payment SDK for Mobile Apps</h6>
                                     <p className='small-head-txt'>Collect payments seamlessly in your Android or iOS apps</p>
@@ -69,7 +69,7 @@ class Home extends Component {
                         </div>
                         <div className='box-item grid vertical justify-between'>
                             <div className='box-bg'>
-                                <img className='' src='/assets/dev-developer.svg' alt='' />
+                                <img className='' src='/assets/dev-developer.svg' alt='developer' />
                                 <div>
                                     <h6 className='bold-heading'>Plugins for E-commerce Websites</h6>
                                     <p className='small-head-txt'> Use pre-built plugins for Wordpress, Magento etc. or try one of our integrated e-commerce solutions</p>
@@ -119,7 +119,7 @@ class Home extends Component {
                                 <div className='sdk-area grid-inline'>
                                     <Link to="/docs/v1/payment-gateway">
                                         <div className='grid vertical justify-center'>
-                                            <img src='/assets/ic-business-web-api-black.svg' alt='' />
+                                            <img src='/assets/ic-business-web-api-black.svg' alt='api-img' />
                                             <p>Paytm Checkout</p>
                                         </div>
                                     </Link>
@@ -127,7 +127,7 @@ class Home extends Component {
 
                                     <Link to="/docs/v1/android-sdk">
                                         <div className='grid vertical justify-center'>
-                                            <img src='/assets/art-android.png' alt='' />
+                                            <img src='/assets/art-android.png' alt='android-image' />
                                             <p>Android SDK</p>
                                         </div>
                                     </Link>
@@ -135,7 +135,7 @@ class Home extends Component {
 
                                     <Link to="/docs/v1/ios-sdk">
                                         <div className='grid vertical justify-center'>
-                                            <img src='/assets/ic-business-web-ios-black.svg' alt='' />
+                                            <img src='/assets/ic-business-web-ios-black.svg' alt='ios-image' />
                                             <p>iOS SDK</p>
                                         </div>
                                     </Link>

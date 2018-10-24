@@ -68,8 +68,8 @@ class Header extends Component {
                 <a href='#' className={` ${style.navlistdroparrow} p-rel`}>Products</a>
                 <ul className={`${style.headDropDown}`}>
                   <li>
-                    <a target="_blank" href="https://business.paytm.com/payment-gateway" className={`${style.headDropDownLink} grid-inline align-center`}>
-                      <img src="/assets/head-on-app.svg" alt=" " />
+                    <a target="_blank" href="https://business.paytm.com/payment-gateway" rel="noopener" className={`${style.headDropDownLink} grid-inline align-center`}>
+                      <img src="/assets/head-on-app.svg" alt="app-icon" />
                       <div className={`${style.headDropDownContent}`}>
                         <label>On App/Website</label>
                         <p>Deep integration on your platform</p>
@@ -77,8 +77,8 @@ class Header extends Component {
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://business.paytm.com/retail" className={`${style.headDropDownLink} grid-inline align-center`}>
-                      <img src="/assets/head-mobile-pay.svg" alt=" " />
+                    <a target="_blank" href="https://business.paytm.com/retail" rel="noopener" className={`${style.headDropDownLink} grid-inline align-center`}>
+                      <img src="/assets/head-mobile-pay.svg" alt="mobile-icon" />
                       <div className={`${style.headDropDownContent}`}>
                         <label>In your Store</label>
                         <p>QR code payments</p>
@@ -86,9 +86,9 @@ class Header extends Component {
                     </a>
                   </li>
                   <li>
-                    <a target="_blank" href="https://business.paytm.com/payment-link" className={`${style.headDropDownLink} grid-inline align-center`}>
+                    <a target="_blank" href="https://business.paytm.com/payment-link" rel="noopener" className={`${style.headDropDownLink} grid-inline align-center`}>
 
-                      <img src="/assets/head-pay-link.svg" alt=" " />
+                      <img src="/assets/head-pay-link.svg" alt="pay-icon" />
                       <div className={`${style.headDropDownContent}`}>
                         <label>Payment Link</label>
                         <p>On SMS/Chat/Email</p>
@@ -98,8 +98,8 @@ class Header extends Component {
                 </ul>
 
               </li>
-              <li className={`${style.navlistDesk}`}><a target="_blank" href='https://business.paytm.com/pricing'>Pricing</a></li>
-              <li className={`${style.navlistDesk}`}><a target="_blank" href='https://business.paytm.com/support'>Support</a></li>
+              <li className={`${style.navlistDesk}`}><a target="_blank" href='https://business.paytm.com/pricing' rel="noopener">Pricing</a></li>
+              <li className={`${style.navlistDesk}`}><a target="_blank" href='https://business.paytm.com/support' rel="noopener">Support</a></li>
             </ul>
             {
               !this.props.state.loggedIn ?
@@ -122,7 +122,7 @@ class Header extends Component {
         <div className={`popupWrapper  ${(this.props.state.showLogin ? ' fadeIn' : '')}`}>
           <div className="popup pos-abs iframeOpen">
             <div className="popup-wrapper pos-rel">
-              <span className="closePopup" onClick={this.hideLogin}><img src="/assets/ic-clear.svg" /></span>
+              <span className="closePopup" onClick={this.hideLogin}><img src="/assets/ic-clear.svg" alt="cross-img"/></span>
               <div className="popup-content">
                 <iframe id="oAuth" className="popup-iframe hidden" src="https://dashboard.paytm.com/developer-login" title="oAuth"></iframe>
               </div>

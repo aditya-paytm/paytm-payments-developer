@@ -15,7 +15,7 @@ Paytm Android SDK is a secure, PCI-compliant way to accept Debit/Credit card, Ne
 ---
 <br/>
 
-<img src='/assets/merchant-pg-android.gif' width="250" alt='' />
+<img src='/assets/merchant-pg-android.gif' width="250" alt='merchant pg android' />
 
 ## Overview of payment processing via Paytm Android SDK
 ---
@@ -31,7 +31,7 @@ Paytm Android SDK is a secure, PCI-compliant way to accept Debit/Credit card, Ne
 Find the detailed interaction of each system component in the flow chart below
 
 <br/>
-<img src='/assets/img-flow-android-ios-sdk.png' alt='' />
+<img src='/assets/img-flow-android-ios-sdk.png' alt='sdk' />
 
 ## Steps to start accepting payments via Paytm Android SDK
 ---
@@ -414,7 +414,7 @@ Production: https://securegw.paytm.in/theia/processTransaction
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_JAVA' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
-                        <img src='/assets/java.png' alt=''/>
+                        <img src='/assets/java.png' alt='java'/>
                         <label>Java</label>
                     </span>
                 </a>
@@ -422,7 +422,7 @@ Production: https://securegw.paytm.in/theia/processTransaction
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_DotNet' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
-                        <img src='/assets/logo-dotnet.png' alt=''/>
+                        <img src='/assets/logo-dotnet.png' alt='.net'/>
                         <label>ASP.Net</label>
                     </span>
                 </a>
@@ -430,7 +430,7 @@ Production: https://securegw.paytm.in/theia/processTransaction
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_PHP' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
-                        <img src='/assets/logo-php.png' alt=''/>
+                        <img src='/assets/logo-php.png' alt='php'/>
                         <label>PHP</label>
                     </span>
                 </a>
@@ -438,7 +438,7 @@ Production: https://securegw.paytm.in/theia/processTransaction
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_NodeJs' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
-                        <img src='/assets/logo-nodejs.png' alt=''/>
+                        <img src='/assets/logo-nodejs.png' alt=''nodeJS/>
                         <label>Node.js</label>
                     </span>
                 </a>
@@ -446,7 +446,7 @@ Production: https://securegw.paytm.in/theia/processTransaction
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_Ruby' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
-                        <img src='/assets/logo-ruby-on-rails.png' alt=''/>
+                        <img src='/assets/logo-ruby-on-rails.png' alt='ruby on rails'/>
                         <label>Ruby on rails</label>
                     </span>
                 </a>
@@ -454,7 +454,7 @@ Production: https://securegw.paytm.in/theia/processTransaction
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_Python' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
-                        <img src='/assets/logo-python.png' alt=''/>
+                        <img src='/assets/logo-python.png' alt='python'/>
                         <label>Python</label>
                     </span>
                 </a>
@@ -462,7 +462,7 @@ Production: https://securegw.paytm.in/theia/processTransaction
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Google_App_Engine_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
-                        <img src='/assets/logo-google-app-engine.png' alt=''/>
+                        <img src='/assets/logo-google-app-engine.png' alt='google app engine'/>
                         <label>Google App Engine</label>
                     </span>
                 </a>

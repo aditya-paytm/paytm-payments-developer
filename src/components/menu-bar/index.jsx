@@ -61,9 +61,9 @@ class Menubar extends Component {
                             <li>
                                 <div onClick={this.showMenu} className={`${style.leftLink} ${style.leftNoLink} grid align-center`}><span className='icon-ic-business-web-api-reference'></span>API Reference</div>
                                 <ul className={`${style.menuSubList} ${this.props.state.showApiMenu ? visibleMenu : ''} `}>
-                                    <li><Link to="/docs/transaction-status-api" className={`${style.leftLink} grid align-center`} activeClassName={`${style.activeLink}`} ><img src='/assets/tag-post.svg' alt='' /> Transaction Status</Link></li>
-                                    <li><Link to="/docs/refund-api" className={`${style.leftLink} grid align-center`} activeClassName={`${style.activeLink}`}><img src='/assets/tag-post.svg' alt='' /> Refund </Link></li>
-                                    <li><Link to="/docs/refund-status-api" className={`${style.leftLink} grid align-center`} activeClassName={`${style.activeLink}`}><img src='/assets/tag-post.svg' alt='' /> Refund Status</Link></li>
+                                    <li><Link to="/docs/transaction-status-api" className={`${style.leftLink} grid align-center`} activeClassName={`${style.activeLink}`} ><img src='/assets/tag-post.svg' alt='tag-post' /> Transaction Status</Link></li>
+                                    <li><Link to="/docs/refund-api" className={`${style.leftLink} grid align-center`} activeClassName={`${style.activeLink}`}><img src='/assets/tag-post.svg' alt='tag-post' /> Refund </Link></li>
+                                    <li><Link to="/docs/refund-status-api" className={`${style.leftLink} grid align-center`} activeClassName={`${style.activeLink}`}><img src='/assets/tag-post.svg' alt='tag-post' /> Refund Status</Link></li>
                                 </ul>
                             </li>
                             <li>

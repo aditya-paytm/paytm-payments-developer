@@ -8,7 +8,7 @@ class HostedEcomWeb extends Component {
             <div className={`${style.ecomCard}`}>
                 <a href='' className={`${style.cardLink} grid justify-between align-center`} >
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-martjack.png' alt=''/>
+                        <img src='/assets/logo-martjack.png' alt='martjack-logo'/>
                         <label>Martjack</label>
                     </span>
                 </a>
@@ -16,7 +16,7 @@ class HostedEcomWeb extends Component {
             <div className={`${style.ecomCard}`}>
                 <a href='' className={`${style.cardLink} grid justify-between align-center`} >
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-zepo.png' alt=''/>
+                        <img src='/assets/logo-zepo.png' alt='zepo-logo'/>
                         <label>Zepo</label>
                     </span>
                 </a>
@@ -24,7 +24,7 @@ class HostedEcomWeb extends Component {
             <div className={`${style.ecomCard}`}>
                 <a href='' className={`${style.cardLink} grid justify-between align-center`} >
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-kartrocket.png' alt=''/>
+                        <img src='/assets/logo-kartrocket.png' alt='kartrocket-logo'/>
                         <label>Kartrocket</label>
                     </span>
                 </a>
@@ -32,7 +32,7 @@ class HostedEcomWeb extends Component {
             <div className={`${style.ecomCard}`}>
                 <a href='' className={`${style.cardLink} grid justify-between align-center`} >
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-ecomchain.png' alt=''/>
+                        <img src='/assets/logo-ecomchain.png' alt='ecomchain-logo'/>
                         <label>Ecomchain</label>
                     </span>
                 </a>
@@ -40,7 +40,7 @@ class HostedEcomWeb extends Component {
             <div className={`${style.ecomCard}`}>
                 <a href='' className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/shopify.png' alt=''/>
+                        <img src='/assets/shopify.png' alt='shopify-logo'/>
                         <label>Shopify</label>
                     </span>
                 </a>

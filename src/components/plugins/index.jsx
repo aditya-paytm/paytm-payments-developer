@@ -8,220 +8,220 @@ class Plugins extends Component {
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Magento_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-magento.svg' alt=''/>
+                        <img src='/assets/logo-magento.svg' alt='magento-logo'/>
                         <label>Magento</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Opencart_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-opencart.svg' alt=''/>
+                        <img src='/assets/logo-opencart.svg' alt='opencart-logo'/>
                         <label>Opencart</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm-NopCommerce' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-nopcommerce.png' alt=''/>
+                        <img src='/assets/logo-nopcommerce.png' alt='nopcommerce-logo'/>
                         <label>Nopcommerce</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_CS-Cart_v4.0_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-cs-cart.svg' alt=''/>
+                        <img src='/assets/logo-cs-cart.svg' alt='cs-cart'/>
                         <label>CS cart</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Prestashop_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-prestashop.png' alt=''/>
+                        <img src='/assets/logo-prestashop.png' alt='prestashop-logo'/>
                         <label>Prestashop</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Wordpress_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-wordpress.svg' alt=''/>
+                        <img src='/assets/logo-wordpress.svg' alt='wordpress-logo'/>
                         <label>Wordpress</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Drupal_Ubercart_v3.x_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-ubercart.png' alt=''/>
+                        <img src='/assets/logo-ubercart.png' alt='ubercart-logo'/>
                         <label>Ubercart</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Woocommerce_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/logo-woocommerce.png' alt=''/>
+                        <img src='/assets/logo-woocommerce.png' alt='woocommerce-logo'/>
                         <label>WooCommerce</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_EasyDigital_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-easy-digital.png' alt=''/>
+                        <img src='/assets/img-easy-digital.png' alt='easy-digital'/>
                         <label>Easy Digital</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_AbanteCart' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-abantecart.png' alt=''/>
+                        <img src='/assets/img-logo-abantecart.png' alt='abantecart'/>
                         <label>AbanteCart</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Drupal_Commerce_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-drupal-commerce.png' alt=''/>
+                        <img src='/assets/img-logo-drupal-commerce.png' alt='drupal-commerce'/>
                         <label>Drupal Commerce</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_GravityForm_v3.5.x_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-gravity-forms.png' alt=''/>
+                        <img src='/assets/img-logo-gravity-forms.png' alt='gravity-forms'/>
                         <label>Gravity Forms</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Joomla_Donation_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-joomla.png' alt=''/>
+                        <img src='/assets/img-logo-joomla.png' alt='joomla'/>
                         <label>Joomla</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Moodle_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-moodle.png' alt=''/>
+                        <img src='/assets/img-logo-moodle.png' alt='modle-logo'/>
                         <label>Moodle</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Oscommerce_v2.3.x_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-os-commerce.png' alt=''/>
+                        <img src='/assets/img-logo-os-commerce.png' alt='os-commerce'/>
                         <label>os COMMERCE</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_ViArt_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-viart.png' alt=''/>
+                        <img src='/assets/img-logo-viart.png' alt='viart-logo'/>
                         <label>ViArt</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Virtuemart_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-virtuemart.png' alt=''/>
+                        <img src='/assets/img-logo-virtuemart.png' alt='virtuemart'/>
                         <label>VirtueMart</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_WHMCS_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-whmcs.png' alt=''/>
+                        <img src='/assets/img-logo-whmcs.png' alt='whmcs-logo'/>
                         <label>WHMCS</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_WPeCommerce_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-wp-ecommerce.png' alt=''/>
+                        <img src='/assets/img-logo-wp-ecommerce.png' alt='wp-ecommerce'/>
                         <label>WP eCommerce</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
                 <a href='https://github.com/Paytm-Payments/Paytm_Zencart_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/img-logo-zencart.png' alt=''/>
+                        <img src='/assets/img-logo-zencart.png' alt='zencart-logo'/>
                         <label>Zencart</label>
                     </span>
                     <span className={`grid justify-between align-center`}>
-                        <img src='/assets/ic-chevron-right.svg' alt=''/>
+                        <img src='/assets/ic-chevron-right.svg' alt='right-icon'/>
                     </span>
                 </a>
             </div>

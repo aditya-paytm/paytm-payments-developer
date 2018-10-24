@@ -57,7 +57,7 @@ const Pricing = (props) => {
                         <ul className={`${style.priceList}`}>
                             <li>
                                 <div className={`${style.popularTag} grid align-center`}>
-                                    <img src="../assets/ic-star.svg"/><span>MOST POPULAR</span>
+                                    <img src="../assets/ic-star.svg" alt=""/><span>MOST POPULAR</span>
                                 </div>
                                 <div className={`${style.box}`} >
                                     <h3>Starter</h3>

@@ -11,7 +11,7 @@ import MdButton from './../../../components/md-button/index';
 <div className={`${style.grid} ${style.justifyBetween}`}>
     <div className={`${style.headLeft}`}><h1>Start Building with Paytm</h1><h3>Paytm Payment Gateway provides a secure, PCI-compliant way to accept Debit/Credit card, Net-Banking, UPI and Paytm wallet payments from your customers</h3><ul><li><MdButton text={`Create account`}></MdButton> or <MdButton text={`login`}></MdButton> using your existing Paytm account</li><li>Generate your <a href='https://dashboard.paytm.com/next/apikeys?src=dev' target="_blank">staging account credentials</a> from the dashboard. These are required 
  to explore Paytm's integration solutions.</li><li>When you are ready to go live, <a href='https://dashboard.paytm.com/next/activate?src=dev' target="_blank">activate your account </a>in the dashboard to get production account credentials</li></ul></div>
-    <div className={`${style.headRight}`}><img src='./../../assets/img-start-building-with-paytm.svg' alt='' /></div>
+    <div className={`${style.headRight}`}><img src='./../../assets/img-start-building-with-paytm.svg' alt='banner-logo' /></div>
 </div>
 
 
@@ -100,19 +100,19 @@ import Link from 'gatsby-link';
 <div className='sdk-area grid-inline'>
     <Link to="/docs/v1/payment-gateway">
         <div className='grid vertical justify-center'>
-        <img src='./../../assets/ic-business-web-api-black.svg' alt='' />
+        <img src='./../../assets/ic-business-web-api-black.svg' alt='web-api' />
         <p>Paytm Checkout</p>
         </div>
     </Link>
     <Link to="/docs/v1/android-sdk">
         <div className='grid vertical justify-center'>
-        <img src='./../../assets/art-android.png' alt='' />
+        <img src='./../../assets/art-android.png' alt='android' />
         <p>Android SDK</p>
         </div>
     </Link>
     <Link to="/docs/v1/ios-sdk">
         <div className='grid vertical justify-center'>
-        <img src='./../../assets/ic-business-web-ios-black.svg' alt='' />
+        <img src='./../../assets/ic-business-web-ios-black.svg' alt='web-ios' />
         <p>iOS SDK</p>
         </div>
     </Link>

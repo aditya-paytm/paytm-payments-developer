@@ -10,7 +10,7 @@ export default class Error extends Component {
     render() {
         return (
          <div className={`${style.errorWrapper}`}>
-             <img src='/assets/img-error-404.svg'/>
+             <img src='/assets/img-error-404.svg' alt="error-img"/>
              <h3>404 - Page not found</h3>
              <p>The page you are looking for couldn’t be found</p>
              <button className={`btn btn-primary`} onClick={() => push('/docs')}>Go back home</button>

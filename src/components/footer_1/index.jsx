@@ -6,18 +6,18 @@ const Footer = () => (
 		<div className={`grid justify-end`}>
 			<div className={`${style.subFooterWrap} ${style.lightBg} grid justify-between`}>
 				<div className={`${style.subFooterBox}`} >
-					<h6>Discussion Forum <a target="_blank" href="http://paywithpaytm.com/developer/discussion/"><img src='/assets/ic-launch.svg' /></a></h6>
+					<h6>Discussion Forum <a target="_blank" href="http://paywithpaytm.com/developer/discussion/" rel="noopener"><img src='/assets/ic-launch.svg' alt="discussion-link"/></a></h6>
 					<p>Paytm’s developer-centric community to resolve technical issue faced while integration</p>
 				</div>
 				<div className={`${style.subFooterBox}`} >
-					<h6 >FAQs <a target="_blank" href="https://developer.paytm.com/support/faq"><img src='/assets/ic-launch.svg' /></a></h6>
+					<h6 >FAQs <a target="_blank" href="https://developer.paytm.com/support/faq"><img src='/assets/ic-launch.svg' alt="faq"/></a></h6>
 					<p>Get Answers to most common questions around integration Paytm</p>
 				</div>
 				<div className={`${style.subFooterBox}`} >
 					<h6>Contact Us</h6>
 					<p>In case of any queries, reach us</p>
 					<p><a href="mailto:devsupport@paytm.com">devsupport@paytm.com</a></p>
-					<p><a className={`grid align-center`} target="_blank" href="https://github.com/Paytm-Payments/paytm-payments-developer">GitHub<img src='/assets/ic-launch.svg' width="18"/></a></p>
+					<p><a className={`grid align-center`} target="_blank" href="https://github.com/Paytm-Payments/paytm-payments-developer">GitHub<img src='/assets/ic-launch.svg' width="18" alt="github"/></a></p>
 				</div>
 			</div>
 		</div>
