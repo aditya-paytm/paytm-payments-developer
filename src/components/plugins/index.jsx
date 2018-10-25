@@ -6,7 +6,7 @@ class Plugins extends Component {
     return (
         <div className={`${style.ecomPlatform} grid justify-between`}>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Magento_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Magento_Kit' target="_blank" rel="noopener"  className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-magento.svg' alt='magento-logo'/>
                         <label>Magento</label>
@@ -17,7 +17,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Opencart_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Opencart_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-opencart.svg' alt='opencart-logo'/>
                         <label>Opencart</label>
@@ -28,7 +28,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm-NopCommerce' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm-NopCommerce' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-nopcommerce.png' alt='nopcommerce-logo'/>
                         <label>Nopcommerce</label>
@@ -39,7 +39,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_CS-Cart_v4.0_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_CS-Cart_v4.0_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-cs-cart.svg' alt='cs-cart'/>
                         <label>CS cart</label>
@@ -50,7 +50,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Prestashop_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Prestashop_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-prestashop.png' alt='prestashop-logo'/>
                         <label>Prestashop</label>
@@ -61,7 +61,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Wordpress_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Wordpress_Kit' target="_blank"  rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-wordpress.svg' alt='wordpress-logo'/>
                         <label>Wordpress</label>
@@ -72,7 +72,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Drupal_Ubercart_v3.x_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Drupal_Ubercart_v3.x_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-ubercart.png' alt='ubercart-logo'/>
                         <label>Ubercart</label>
@@ -83,7 +83,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Woocommerce_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Woocommerce_Kit' target="_blank"  rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/logo-woocommerce.png' alt='woocommerce-logo'/>
                         <label>WooCommerce</label>
@@ -94,7 +94,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_EasyDigital_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_EasyDigital_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-easy-digital.png' alt='easy-digital'/>
                         <label>Easy Digital</label>
@@ -105,7 +105,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_AbanteCart' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_AbanteCart' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-abantecart.png' alt='abantecart'/>
                         <label>AbanteCart</label>
@@ -116,7 +116,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Drupal_Commerce_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Drupal_Commerce_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-drupal-commerce.png' alt='drupal-commerce'/>
                         <label>Drupal Commerce</label>
@@ -127,7 +127,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_GravityForm_v3.5.x_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_GravityForm_v3.5.x_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-gravity-forms.png' alt='gravity-forms'/>
                         <label>Gravity Forms</label>
@@ -138,7 +138,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Joomla_Donation_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Joomla_Donation_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-joomla.png' alt='joomla'/>
                         <label>Joomla</label>
@@ -149,7 +149,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Moodle_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Moodle_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-moodle.png' alt='modle-logo'/>
                         <label>Moodle</label>
@@ -160,7 +160,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Oscommerce_v2.3.x_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Oscommerce_v2.3.x_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-os-commerce.png' alt='os-commerce'/>
                         <label>os COMMERCE</label>
@@ -171,7 +171,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_ViArt_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_ViArt_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-viart.png' alt='viart-logo'/>
                         <label>ViArt</label>
@@ -182,7 +182,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Virtuemart_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Virtuemart_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-virtuemart.png' alt='virtuemart'/>
                         <label>VirtueMart</label>
@@ -193,7 +193,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_WHMCS_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_WHMCS_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-whmcs.png' alt='whmcs-logo'/>
                         <label>WHMCS</label>
@@ -204,7 +204,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_WPeCommerce_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_WPeCommerce_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-wp-ecommerce.png' alt='wp-ecommerce'/>
                         <label>WP eCommerce</label>
@@ -215,7 +215,7 @@ class Plugins extends Component {
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Zencart_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Zencart_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid justify-between align-center`}>
                         <img src='/assets/img-logo-zencart.png' alt='zencart-logo'/>
                         <label>Zencart</label>

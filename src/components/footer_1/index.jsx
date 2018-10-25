@@ -17,17 +17,17 @@ const Footer = () => (
 					<h6>Contact Us</h6>
 					<p>In case of any queries, reach us</p>
 					<p><a href="mailto:devsupport@paytm.com">devsupport@paytm.com</a></p>
-					<p><a className={`grid align-center`} target="_blank" href="https://github.com/Paytm-Payments/paytm-payments-developer">GitHub<img src='/assets/ic-launch.svg' width="18" alt="github"/></a></p>
+					<p><a className={`grid align-center`} target="_blank" href="https://github.com/Paytm-Payments/paytm-payments-developer" rel="noopener">GitHub<img src='/assets/ic-launch.svg' width="18" alt="github"/></a></p>
 				</div>
 			</div>
 		</div>
 		<div className={`${style.footerBottom} max-wrap grid align-center justify-between h100`}>
 			<ul className={`${style.footerList} grid`}>
 				<li>
-					<a href="https://paytm.com/about-us/our-policies/" target="_blank">Terms of Service</a>
+					<a href="https://paytm.com/about-us/our-policies/" target="_blank" rel="noopener">Terms of Service</a>
 				</li>
 				<li>
-					<a href="https://paytm.com/about-us/our-policies/" target="_blank">Privacy Policy</a>
+					<a href="https://paytm.com/about-us/our-policies/" target="_blank" rel="noopener">Privacy Policy</a>
 				</li>
 			</ul>
 			<div className={`${style.copyright}`}>
