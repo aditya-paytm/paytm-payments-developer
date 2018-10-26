@@ -85,7 +85,7 @@ To initialize the Paytm SDK, use below classes:
 
 #### Object: Service
 
-Service object is used to used to access PG services like initiating transaction, getting transaction callbacks etc. This is different for staging and production and created with following snippet:
+Service object is used to access PG services like initiating transaction, getting transaction callbacks etc. This is different for staging and production and created with following snippet:
 
 **For Staging environment:**
 

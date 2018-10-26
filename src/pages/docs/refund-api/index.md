@@ -113,7 +113,7 @@ To initiate partial or complete refund to source account from which the transact
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_PHP' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_PHP' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-php.png' alt='php'/>
                         <label>PHP</label>

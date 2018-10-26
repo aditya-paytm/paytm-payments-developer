@@ -19,7 +19,7 @@ export default ({ meta }) => {
     `}
         render={data => (
         <div className={`edit-github small-container`}>
-            <a className={`github-btn`} href={`${data.site.siteMetadata.githubProject}${meta.path}`} target="_blank">
+            <a className={`github-btn`} href={`${data.site.siteMetadata.githubProject}${meta.path}`} target="_blank" rel="noopener">
                  <img src='/assets/ic-edit.svg' alt='edit-icon'/><span>edit this page on GitHub</span>
             </a>
         </div>
