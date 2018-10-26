@@ -34,7 +34,7 @@ export default ({children,location, pageContext}) => (
 
 | | |
 | --- | --- |
-| **MID** String(20) Mandatory| This is a unique identifier provided to every merchant by Paytm. MID is part of your account credentials and is different on staging and production environment. Your staging MIDs is available <a href="https://dashboard.paytm.com/next/apikeys?src=dev" target="_blank">here</a> & production MID will be available once your activation is complete 
+| **MID** String(20) Mandatory| This is a unique identifier provided to every merchant by Paytm. MID is part of your account credentials and is different on staging and production environment. Your staging MIDs is available <a href="https://dashboard.paytm.com/next/apikeys?src=dev" target="_blank" rel="noopener">here</a> & production MID will be available once your activation is complete 
 | **ORDERID** String(50) Mandatory| Order ID is merchant’s unique reference ID for a transaction passed in the transaction payload. This is Order ID for which the transaction status needs to be fetched
 | **CHECKSUMHASH** String(108) Mandatory| Signature to avoid tampering. Generated using server side checksum utility available  <a href="#code">here</a>
 ---
@@ -83,7 +83,7 @@ export default ({children,location, pageContext}) => (
 
 <div className={`${style.ecomPlatform} grid  justify-start`} id="code">
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Java' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Java' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/java.png' alt='java'/>
                         <label>Java</label>
@@ -91,7 +91,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_dotNet' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_dotNet' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-dotnet.png' alt='.net'/>
                         <label>ASP.Net</label>
@@ -99,7 +99,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_PHP' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_PHP' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-php.png' alt='php'/>
                         <label>PHP</label>
@@ -107,7 +107,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_NodeJs' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_NodeJs' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-nodejs.png' alt='nodeJS'/>
                         <label>Node.js</label>
@@ -115,7 +115,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Ruby' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Ruby' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-ruby-on-rails.png' alt='ruby-on-rails'/>
                         <label>Ruby on rails</label>
@@ -123,7 +123,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Perl' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Perl' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-perl.png' alt='perl'/>
                         <label>Perl</label>
@@ -131,7 +131,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Python' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_Python' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-python.png' alt='python'/>
                         <label>Python</label>
@@ -139,7 +139,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Google_App_Engine_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Google_App_Engine_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-google-app-engine.png' alt='google app engine'/>
                         <label>Google App Engine</label>
@@ -147,7 +147,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_NodeJs_Express_Project  ' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Web_Sample_Kit_NodeJs_Express_Project  ' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-express.png' alt='express'/>
                         <label>Express</label>
@@ -161,7 +161,7 @@ export default ({children,location, pageContext}) => (
 
 <div className={`${style.ecomPlatform} grid justify-start`}>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_JAVA' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_JAVA' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/java.png' alt='java'/>
                         <label>Java</label>
@@ -169,7 +169,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_DotNet' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_DotNet' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-dotnet.png' alt='.netphp'/>
                         <label>ASP.Net</label>
@@ -177,7 +177,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_PHP' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_PHP' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-php.png' alt='php'/>
                         <label>PHP</label>
@@ -185,7 +185,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_NodeJs' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_NodeJs' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-nodejs.png' alt='nodeJS'/>
                         <label>Node.js</label>
@@ -193,7 +193,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_Ruby' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_Ruby' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-ruby-on-rails.png' alt='ruby on rails'/>
                         <label>Ruby on rails</label>
@@ -201,7 +201,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_Python' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_Python' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-python.png' alt='python'/>
                         <label>Python</label>
@@ -209,7 +209,7 @@ export default ({children,location, pageContext}) => (
                 </a>
             </div>
             <div className={`${style.ecomCard}`}>
-                <a href='https://github.com/Paytm-Payments/Paytm_Google_App_Engine_Kit' target="_blank" className={`${style.cardLink} grid justify-between align-center`}>
+                <a href='https://github.com/Paytm-Payments/Paytm_Google_App_Engine_Kit' target="_blank" rel="noopener" className={`${style.cardLink} grid justify-between align-center`}>
                     <span className={`grid vertical justify-between align-center`}>
                         <img src='/assets/logo-google-app-engine.png' alt='google app engine'/>
                         <label>Google App Engine</label>

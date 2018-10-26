@@ -14,7 +14,7 @@ const Pricing = (props) => {
                 <button className={`btn btn-primary`}>Get Started with Paytm</button>
                 <div className={`${style.bannerLinkBox}`}>
                     <p>All plans come bundled with full access to the entire suite of Paytm products -</p>
-                    <p><a href='https://business.paytm.com/retail' target="_blank">QR Code</a>, <a href='https://developer.paytm.com/docs/v1/payment-gateway' target="_blank">Payment Gateway</a> for Web, <a href='https://developer.paytm.com/docs/v1/android-sdk' target="_blank">Payment SDKs</a> for Mobile Apps and <a href='https://business.paytm.com/payment-link' target="_blank">Payment Links</a>.</p>
+                    <p><a href='https://business.paytm.com/retail' target="_blank"  rel="noopener">QR Code</a>, <a href='https://developer.paytm.com/docs/v1/payment-gateway' target="_blank"  rel="noopener">Payment Gateway</a> for Web, <a href='https://developer.paytm.com/docs/v1/android-sdk' target="_blank"  rel="noopener">Payment SDKs</a> for Mobile Apps and <a href='https://business.paytm.com/payment-link' target="_blank"  rel="noopener">Payment Links</a>.</p>
                 </div>
 
             </div>

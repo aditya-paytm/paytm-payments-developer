@@ -1,10 +1,66 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,800');
+/*@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,800');*/
 
+@font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/nunitosans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/nunitosans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback;
+    }
+    
+    
+    
+    
+    @font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/nunitosans-extrabold-webfont.woff2') format('woff2'),
+    url('../fonts/nunitosans-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: fallback;
+    }
+    
+    
+    
+    
+    @font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/nunitosans-light-webfont.woff2') format('woff2'),
+    url('../fonts/nunitosans-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+    }
+    
+    
+    
+    
+    @font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/nunitosans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/nunitosans-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback;
+    }
+    
+    
+    
+    
+    @font-face {
+    font-family: 'Nunito Sans';
+    src: url('../fonts/nunitosans-semibold-webfont.woff2') format('woff2'),
+    url('../fonts/nunitosans-semibold-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+    }
 body {
     font-size: 1.2rem;
     line-height: 1.5;
-    font-weight: normal; // font-family: 'Open Sans', sans-serif;
-    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300; // font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito Sans', "Helvetica", "Arial", sans-serif;
 }
 
 h1,
