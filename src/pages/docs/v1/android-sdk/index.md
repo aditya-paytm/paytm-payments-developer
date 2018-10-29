@@ -292,13 +292,13 @@ All requests sent to Paytm via SDK needs to have a checksumhash. Checksumhash is
 
 <div className={`${style.checkoutWrapper}`}>
     
-<Tabs defaultTab="java">
+<Tabs defaultTab="java-tab">
 	<TabList>
-            <Tab tabFor="java">JAVA</Tab>
-            <Tab tabFor="net">.NET</Tab>
-            <Tab tabFor="php">PHP</Tab>
+            <Tab tabFor="java-tab">JAVA</Tab>
+            <Tab tabFor="net-tab">.NET</Tab>
+            <Tab tabFor="php-tab">PHP</Tab>
     </TabList>
-	<TabPanel tabId="java">
+	<TabPanel tabId="java-tab">
         <span dangerouslySetInnerHTML={{
             __html: `
 <pre><code class="hljs language-java">String merchantMid = <span class="hljs-string">"rxazcv89315285244163"</span>;
@@ -330,7 +330,7 @@ paytmParams.put(<span class="hljs-string">"CALLBACK_URL"</span>, callbackUrl);
 String paytmChecksum = CheckSumServiceHelper.getCheckSumServiceHelper().genrateCheckSum(merchantKey, paytmParams);</code></pre>
             `}}></span>
     </TabPanel>
-	<TabPanel tabId="net">
+	<TabPanel tabId="net-tab">
         <span dangerouslySetInnerHTML={{
         __html:  ` 
 <pre><code class="hljs language-cs">Dictionary&lt;String, String&gt; paytmParams = <span class="hljs-keyword">new</span> Dictionary&lt;String, String&gt;();
@@ -362,7 +362,7 @@ paytmParams.Add(<span class="hljs-string">"TXN_AMOUNT"</span>, txnAmount);
 String paytmChecksum = paytm.CheckSum.generateCheckSum(merchantKey, paytmParams);</code></pre>
         `}}></span>
     </TabPanel>
-    <TabPanel tabId="php">
+    <TabPanel tabId="php-tab">
     <span dangerouslySetInnerHTML={
         {__html: `
 <pre><code class="hljs language-php"><span class="hljs-meta">&lt;?php</span>
@@ -478,13 +478,13 @@ All responses sent by Paytm consists checksumhash. This checksumhash needs to be
 <div className={`${style.checkoutWrapper}`}>
 
 
-<Tabs defaultTab="java">
+<Tabs defaultTab="java-code">
 	<TabList>
-            <Tab tabFor="java">JAVA</Tab>
-            <Tab tabFor="net">.NET</Tab>
-            <Tab tabFor="php">PHP</Tab>
+            <Tab tabFor="java-code">JAVA</Tab>
+            <Tab tabFor="net-code">.NET</Tab>
+            <Tab tabFor="php-code">PHP</Tab>
     </TabList>
-	<TabPanel tabId="java">
+	<TabPanel tabId="java-code">
     <span dangerouslySetInnerHTML={{
         __html: `
 <pre><code class="hljs language-java"><span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> String merchantKey = <span class="hljs-string">"gKpu7IKaLSbkchFS"</span>;
@@ -509,7 +509,7 @@ TreeMap&lt;String, String&gt; paytmParams = <span class="hljs-keyword">new</span
 }</code></pre>
         `}}></span>
     </TabPanel>
-    <TabPanel tabId="net">
+    <TabPanel tabId="net-code">
     <span dangerouslySetInnerHTML={
         {__html: `
 <pre><code class="hljs language-cs">String merchantKey = <span class="hljs-string">"gKpu7IKaLSbkchFS"</span> ;
@@ -529,7 +529,7 @@ Dictionary&lt;String, String&gt; paytmParams = <span class="hljs-keyword">new</s
     Response.Write(<span class="hljs-string">"Checksum MisMatch"</span>);
 }</code></pre>`}}></span>
        </TabPanel>
-		<TabPanel tabId="php">
+		<TabPanel tabId="php-code">
         <span dangerouslySetInnerHTML={
             {__html: `
 <pre><code class="hljs language-php"><span class="hljs-meta">&lt;?php</span>

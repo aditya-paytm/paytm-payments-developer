@@ -83,12 +83,12 @@ For Production - Create an instance of the `PGServerEnvironment` and set the `se
 
 <div className={`${style.iosCodeWrapper}`}>
 
-<Tabs defaultTab="swift">
+<Tabs defaultTab="swift-code">
 	<TabList>
-            <Tab tabFor="swift">Swift</Tab>
-            <Tab tabFor="c">Objective C</Tab>
+            <Tab tabFor="swift-code">Swift</Tab>
+            <Tab tabFor="c-code">Objective C</Tab>
     </TabList>
-    <TabPanel tabId="swift">
+    <TabPanel tabId="swift-code">
 <span dangerouslySetInnerHTML={{
             __html: `
 <pre><code class="hljs language-swift"><span class="hljs-function"><span class="hljs-keyword">func</span> <span class="hljs-title">beginPayment</span><span class="hljs-params">()</span></span> {
@@ -119,7 +119,7 @@ For Production - Create an instance of the `PGServerEnvironment` and set the `se
 	<span class="hljs-keyword">self</span>.navigationController?.pushViewController(<span class="hljs-keyword">self</span>.txnController, animated: <span class="hljs-literal">true</span>)
 }</code></pre>`}}></span>
     </TabPanel>
-    <TabPanel tabId="c">
+    <TabPanel tabId="c-code">
 <span dangerouslySetInnerHTML={{
             __html:  `
 <pre><code class="hljs language-objectivec">- (<span class="hljs-keyword">void</span>)beginPayment{
@@ -444,13 +444,13 @@ All responses sent by Paytm consists checksumhash. This checksumhash needs to be
 <div className={`${style.checkoutWrapper}`}>
 
 
-<Tabs defaultTab="java">
+<Tabs defaultTab="java-code">
 	<TabList>
-            <Tab tabFor="java">JAVA</Tab>
-            <Tab tabFor="net">.NET</Tab>
-            <Tab tabFor="php">PHP</Tab>
+            <Tab tabFor="java-code">JAVA</Tab>
+            <Tab tabFor="net-code">.NET</Tab>
+            <Tab tabFor="php-code">PHP</Tab>
     </TabList>
-	<TabPanel tabId="java">
+	<TabPanel tabId="java-code">
     <span dangerouslySetInnerHTML={{
         __html: `
 <pre><code class="hljs language-java"><span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> String merchantKey = <span class="hljs-string">"gKpu7IKaLSbkchFS"</span>;
@@ -475,7 +475,7 @@ TreeMap&lt;String, String&gt; paytmParams = <span class="hljs-keyword">new</span
 }</code></pre>
         `}}></span>
     </TabPanel>
-    <TabPanel tabId="net">
+    <TabPanel tabId="net-code">
     <span dangerouslySetInnerHTML={
         {__html: `
 <pre><code class="hljs language-cs">String merchantKey = <span class="hljs-string">"gKpu7IKaLSbkchFS"</span> ;
@@ -495,7 +495,7 @@ Dictionary&lt;String, String&gt; paytmParams = <span class="hljs-keyword">new</s
     Response.Write(<span class="hljs-string">"Checksum MisMatch"</span>);
 }</code></pre>`}}></span>
        </TabPanel>
-		<TabPanel tabId="php">
+		<TabPanel tabId="php-code">
         <span dangerouslySetInnerHTML={
             {__html: `
 <pre><code class="hljs language-php"><span class="hljs-meta">&lt;?php</span>
