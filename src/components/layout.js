@@ -34,6 +34,7 @@ class Layout extends Component {
   render() {
     const root = this.state.locale === 'en' ? '' : this.state.locale;
     const { children, pageContext = {} } = this.props;
+    var applyClass = pageContext.frontmatter ? pageContext.frontmatter.applyClass : false;
     return <StaticQuery
       query={graphql`
       query SiteTitleQuery {
@@ -58,7 +59,7 @@ class Layout extends Component {
             >
               <html lang="en" />
             </Helmet>
-          <div id='app' className = "grid justify-between activeOverlayClass" >
+          <div id='app' className={`grid justify-between activeOverlayClass ${applyClass ? 'flowcontroll': ''}`}>
           {this.props.state.loggedIn && this.props.state.showLoggedIn ? <div className="grid align-center justify-between logged-entry"><span>You have already logged in. </span><a onClick={this.handleChange} className="close"><img src="/assets/ic-clear-white.svg"/></a></div>
  : null}
               <Header />

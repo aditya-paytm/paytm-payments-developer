@@ -1,7 +1,10 @@
 ---
 path:  "/docs/reurring-api/index.md"
 title: "API Reference - Transaction Status"
+applyClass: "true"
 ---
+
+
 
 import RecurringApi from '../../../components/recurring-api-layout';
 import Layout from './../../../components/layout';

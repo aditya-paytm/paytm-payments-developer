@@ -1,3 +1,4 @@
+
 table.api-table{
     display:block;
     width:100%;
@@ -9,6 +10,8 @@ table.api-table{
 .recurring-box{
     width:100%;
     margin-bottom:30px;
+    
+    
 }
 h2.api-heading{
     font-size: 3.0rem;
@@ -42,9 +45,13 @@ h1 {
     width:480px;
     background:#2e3436;
     margin-top: -40px;
-    position: relative;
-   margin-right:-40px;
+    position: sticky;
+    margin-right:-40px;
+    top: 64px;
     padding: 30px;
+    padding-top:50px;
+    align-self: flex-start;
+    height:100vh;
 
     p {
         color: #fff;
@@ -78,6 +85,9 @@ h1 {
         max-width:480px;
         padding-left:30px;
         padding:10px 0 5px 30px;
+        position: absolute;
+        top:0;
+        left:0;
         button[role='tab'] {
             margin-right: 5px;
             font-weight: normal;

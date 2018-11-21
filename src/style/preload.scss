@@ -367,7 +367,14 @@ p{
     margin-bottom:0px;
 }
 
-
+.flowcontroll{
+    .wrapper{
+        overflow:visible;
+    }
+    .code-wrapper{
+        overflow:visible;
+    }
+}
 
 .list-descrpt-box{
     margin-top:60px;
